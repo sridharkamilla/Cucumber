@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="150.217" tests="2" skipped="0" failures="0" errors="0">
+<testcase classname="Create conact in CRM" name="Create new contact in CRM scenario - Example #1.1" time="89.587">
+<system-out><![CDATA[
+Given User is already on login page.........................................passed
+Then User enters "SriMore" and "pass@123"...................................passed
+Then User clicks on login button............................................passed
+Then User is now on home page...............................................passed
+Then User moves to new contact page.........................................passed
+Then User enters new contact details "Srinivas" and "kam" and "more"........passed
+Then Close the browser......................................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Create conact in CRM" name="Create new contact in CRM scenario - Example #1.2" time="59.904">
+<system-out><![CDATA[
+Given User is already on login page.........................................passed
+Then User enters "SriMore" and "pass@123"...................................passed
+Then User clicks on login button............................................passed
+Then User is now on home page...............................................passed
+Then User moves to new contact page.........................................passed
+Then User enters new contact details "Srikanth" and "kam" and "more"........passed
+Then Close the browser......................................................passed
+]]></system-out>
+</testcase>
+</testsuite>

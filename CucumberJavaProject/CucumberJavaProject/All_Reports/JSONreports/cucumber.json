@@ -1,0 +1,231 @@
+[
+  {
+    "line": 3,
+    "elements": [
+      {
+        "start_timestamp": "2024-05-23T08:12:02.352Z",
+        "line": 20,
+        "name": "Create new contact in CRM scenario",
+        "description": "",
+        "id": "create-conact-in-crm;create-new-contact-in-crm-scenario;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 18883990600,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User is already on login page",
+            "match": { "location": "stepDefination.NewContact.user_is_already_on_login_page()" },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4529533400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enters \"SriMore\" and \"pass@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"SriMore\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"pass@123\"",
+                  "offset": 26
+                }
+              ],
+              "location": "stepDefination.NewContact.user_enters_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 47905990800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User clicks on login button",
+            "match": { "location": "stepDefination.NewContact.user_clicks_on_login_button()" },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3039013900,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User is now on home page",
+            "match": { "location": "stepDefination.NewContact.user_is_now_on_home_page()" },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 4051006500,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User moves to new contact page",
+            "match": { "location": "stepDefination.NewContact.user_moves_to_new_contact_page()" },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10302987700,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User enters new contact details \"Srinivas\" and \"kam\" and \"more\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Srinivas\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"kam\"",
+                  "offset": 47
+                },
+                {
+                  "val": "\"more\"",
+                  "offset": 57
+                }
+              ],
+              "location": "stepDefination.NewContact.user_enters_new_contact_details(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 775000400,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Close the browser",
+            "match": { "location": "stepDefination.NewContact.close_the_browser()" },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-05-23T08:13:31.973Z",
+        "line": 21,
+        "name": "Create new contact in CRM scenario",
+        "description": "",
+        "id": "create-conact-in-crm;create-new-contact-in-crm-scenario;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 14148004000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User is already on login page",
+            "match": { "location": "stepDefination.NewContact.user_is_already_on_login_page()" },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4635507700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enters \"SriMore\" and \"pass@123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"SriMore\"",
+                  "offset": 12
+                },
+                {
+                  "val": "\"pass@123\"",
+                  "offset": 26
+                }
+              ],
+              "location": "stepDefination.NewContact.user_enters_and(java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 20307000100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User clicks on login button",
+            "match": { "location": "stepDefination.NewContact.user_clicks_on_login_button()" },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3024994300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User is now on home page",
+            "match": { "location": "stepDefination.NewContact.user_is_now_on_home_page()" },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 6504004300,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User moves to new contact page",
+            "match": { "location": "stepDefination.NewContact.user_moves_to_new_contact_page()" },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 10549011000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User enters new contact details \"Srikanth\" and \"kam\" and \"more\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Srikanth\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"kam\"",
+                  "offset": 47
+                },
+                {
+                  "val": "\"more\"",
+                  "offset": 57
+                }
+              ],
+              "location": "stepDefination.NewContact.user_enters_new_contact_details(java.lang.String,java.lang.String,java.lang.String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 725995700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Close the browser",
+            "match": { "location": "stepDefination.NewContact.close_the_browser()" },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Create conact in CRM",
+    "description": "",
+    "id": "create-conact-in-crm",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/contact.feature",
+    "tags": []
+  }
+]

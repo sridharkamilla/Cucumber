@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Cucumber" time="25.303" tests="5" skipped="0" failures="0" errors="0">
+<testcase classname="Testing HRM login" name="Login with valid data" time="24.389">
+<system-out><![CDATA[
+Given site address as hrm page..............................................passed
+When user enter valid username as "Admin"...................................passed
+And user enter valid password as "admin123".................................passed
+And user click on login button..............................................passed
+Then Verify Admin tab displayed.............................................passed
+And logout from HRM Application.............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Login" name="Login Functionality" time="0.014">
+<system-out><![CDATA[
+Given user navigates to the website javatpoint.com..........................passed
+And there user logs in through Login Window by using Username as "USER" and Password as "PASSWORD".passed
+Then login must be successful...............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Checking Login Feature" name="Verifying login with valid data" time="0.022">
+<system-out><![CDATA[
+Given site address as facebook..............................................passed
+When user enter valid username..............................................passed
+And user enter valid password...............................................passed
+And click on login button...................................................passed
+Then verify Logout is displayed.............................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Checking Login Feature" name="Verifying login with invalid data" time="0.018">
+<system-out><![CDATA[
+Given site address as facebook..............................................passed
+When user enter invalid username............................................passed
+And user enter invalid password.............................................passed
+And click on login button...................................................passed
+Then verify error message is displayed......................................passed
+]]></system-out>
+</testcase>
+<testcase classname="Checking Login Feature" name="Verifying login with blank data" time="0.013">
+<system-out><![CDATA[
+Given site address as facebook..............................................passed
+When user enter valid username..............................................passed
+And user leave password as blank............................................passed
+And click on login button...................................................passed
+Then verify password error message displayed................................passed
+]]></system-out>
+</testcase>
+</testsuite>
